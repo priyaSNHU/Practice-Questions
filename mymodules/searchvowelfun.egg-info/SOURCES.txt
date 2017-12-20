@@ -1,0 +1,5 @@
+setup.py
+searchvowelfun.egg-info/PKG-INFO
+searchvowelfun.egg-info/SOURCES.txt
+searchvowelfun.egg-info/dependency_links.txt
+searchvowelfun.egg-info/top_level.txt

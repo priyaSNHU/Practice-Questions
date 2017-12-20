@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+
+{% block body %}
+<h1>{{ the_title}}</h1>
+
+<p>you submitted the following data:</p>
+<tr><td>Phrase:</td><td>{{ the_phrase}}</td></tr>
+<tr><td>Letters:</td><td>{{ the_letters }}</td></tr>
+</table>
+
+<p>When "{{ the_phrase}}" is search for "{{the_letters}}", the following reslts are returned:</p>
+<h3>{{ the_results}}</h3>
+
+{% endblock %}
